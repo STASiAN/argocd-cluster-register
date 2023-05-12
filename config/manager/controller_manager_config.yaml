@@ -16,5 +16,4 @@ metadata:
   name: argocd-cluster-register
 data:
   roleARN: <AWS IAM Role>
-  project: <Comma Seperated list of argo projects>
-
+  project: default

@@ -31,7 +31,7 @@ spec:
         - /manager
         args:
         - --leader-elect
-        image: ghcr.io/dmolik/argocd-cluster-register:lastest
+        image: ghcr.io/dmolik/argocd-cluster-register:latest
         env:
         - name: ROLE_ARN
           valueFrom:

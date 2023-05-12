@@ -60,10 +60,14 @@ metadata:
   name: manager-role
   namespace: argocd
 rules:
-- resources:
+- apiGroups:
+  - ""
+  resources:
   - secrets
   verbs:
   - create
   - delete
   - get
+  - list
   - update
+  - watch
